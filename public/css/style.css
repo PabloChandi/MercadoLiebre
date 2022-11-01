@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--base-font-family);
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+:root {
+    --yellow: #EAC926;
+    --dark-blue: #03264C;
+    --light-blue: #1259c3;
+    --gray: #666666;
+    --light-gray: #ebebeb;
+    --green: #39b54a;
+    --base-font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo,
+header .form{
+    width: 50%;
+}
+
+header div.logo{
+    padding: 10px;
+}
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 10px;
+}
+header nav{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header nav.navegacion{
+    display: none;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+i.fa-id-card{
+    margin: 3px;
+}
+
+i.fa-sign-in-alt{
+    margin: 3px;
+}
+
+i.fa-shopping-basket{
+    margin: 3px;
+}
+
+header div.form div.input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    font-size: 10px;
+    
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+    text-align: center;
+}
+
+header div.top-header p{
+    font-size: 15px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+div.last-visit,
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount{
+    width: 70%;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    margin-top: 20px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+footer.main-footer{
+    text-align: center;
+    background: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer div.icono i{
+    font-size: 25px;
+}
+
+footer div.row div {
+    margin: 15px;
+}
+
+main.main-register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border: black 1px solid;
+    background-color: rgb(209, 208, 208);
+    line-height: 35px;
+}
+.register{
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+    width: 100vw;
+    text-align: left;
+    
+}
+
+.register h4 {
+    font-size: 20px;
+}
+
+ .register div label{
+    font-size: 15px;
+}
+
+.register div input{
+    border-radius: 5px 5px 5px 5px;
+    margin: 6px;
+    height: 25px;
+    padding: 5px;
+    font-size: 15px;  
+} 
+
+ .register div.botones{
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.register div.botones input{
+    font-size: 16px;
+    padding: 4px;
+} 
+
+
+main.main-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    border: black 1px solid;
+    background-color: rgb(209, 208, 208);
+}
+
+main form.login {
+    width: 100%;
+    text-align: center;
+}
+
+ main form div.form-login{
+    font-size: 30px;
+    margin: 15px;
+} 
+
+main form div.boton-login{
+    font-size: 30px;
+    margin: 20px 20px 25px 20px;
+}
+
+main form div input{
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+
+main form div.boton-login input{
+    padding: 4px;
+    
+}
+
+main form div input {
+    width: 250px;
+}
+
+@media (min-width: 426px){
+
+    body header nav.navegacion {
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+    }
+    main section article .description{
+        display: block;
+    }
+
+   
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    ul.nav-links, ul.nav-user {
+        display: flex;
+    }
+
+    li a.opciones {
+        padding: 15px;
+        font-size: 13px;
+    }
+
+    header div.top-header{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    header div.logo{
+        width: 30%;
+    }
+    header div.form{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        font-size: 15px;
+        width: 30%;
+    }
+    header div.top-header p {
+        width: 30%;
+        font-size: 17px;
+    }
+
+    header div.form div.input {
+        font-size: 11px;
+    }
+
+    header div.form div.submit {
+    font-size: 13px;
+    }
+
+    main form div.boton-login input {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    div.burger-menu {
+        display: none;
+    }
+    main section div.products article{
+        width: 45%;
+    }
+
+    .price,
+    .discount{
+        width: 50%;
+    }
+
+    footer .row {
+        flex-wrap: nowrap;
+    }
+
+    footer article p{
+        font-size: 15px;
+    }
+
+    footer article {
+        padding: 10px;
+    }
+    
+    .register{
+        text-align: center;
+    }
+    
+    .register div.botones input {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+
+    header div.form div i{
+        transition: 1s;
+    }
+
+    header div.form div:hover i{
+       transform: rotate(-360deg);
+       font-size: 20px;
+
+    }
+
+    main section div.products article{
+        width: 22%;
+    }
+
+    header div.top-header p {
+        font-size: 22px;
+    }
+
+    header div.form div.input {
+        font-size: 16px;
+    }
+
+    li a.opciones {
+        font-size: 20px;
+    }
+
+    header div i.fa-hand-holding-usd{
+        font-size: 20px;
+    }
+
+    header nav i{
+        font-size: 20px;
+    }
+
+    main section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section article .description{
+        display: block;
+        visibility: hidden;
+       }
+
+    main section article:hover .description{
+        visibility: visible;
+       }
+
+    main section article i{
+        transition: 0.5s;
+    }
+
+    main section article:hover i{
+        transform: rotate(-90deg);
+    }
+
+    main.main-register form.register div.form-group {
+        font-size: 20px;
+    }
+
+    .register div input, .register div label {
+        font-size: 20px;
+    }
+    
+    .register div input {
+        height: 30px;
+        transition: 0.5s;
+    }
+
+    .register div.botones input:hover {
+        background-color: #0022AA;
+        color: #FFF;
+    }
+
+    main form div input {
+        width: 300px;
+        font-size: 15px;
+        transition: 0.5s;
+    }
+
+    main form div.boton-login input:hover {
+        background-color: #0022AA;
+        color: #FFF;
+    }
+
+
+
+    footer article p {
+        font-size: 20px;
+    }
+
+    footer div.icono i{
+        font-size: 28px;
+        margin-bottom: 5px;
+        transition: 0.5s;
+    }
+
+    footer div.icono:hover i{
+        color: #0044AA;
+    }
+
+    footer article h5{
+        font-size: 20px;
+    }
+}
+
