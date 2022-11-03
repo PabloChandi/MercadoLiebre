@@ -49,28 +49,28 @@
         <form class="register" action="/" method="POST">
             <div class="form-group">
                 <label for="name-lastname"></label>
-                <input type="text" placeholder="Nombre y apellido" name="name-lastname" >
+                <input type="text" placeholder="Nombre y apellido" name="name-lastname" required>
             </div>        
 
             <div class="form-group">
                 <label for="name-user"></label>
-                <input type="text" placeholder="Nombre de usuario" name="name-user" >
+                <input type="text" placeholder="Nombre de usuario" name="name-user" required>
            </div>   
 
             <div class="form-group">
                 <label for="email"></label>
-                <input type="email" placeholder="E-mail" name="email" >
+                <input type="email" placeholder="E-mail" name="email" required>
             </div>
 
             <div class="form-group">
                 <label for="domicilio"></label>
-                <input type="text" placeholder="Domicilio" name="domicilio" >
+                <input type="text" placeholder="Domicilio" name="domicilio" required>
             </div>
             
             <h4>Fecha de nacimiento:</h4>
             <div class="form-group">
                 <label for="date-birth"></label>
-                <input type="date" name="date-birth" >
+                <input type="date" name="date-birth" required>
             </div>
 
             <h4>Perfil del usuario:</h4>
@@ -96,7 +96,7 @@
             <h4>Seleccionar una imagen para el perfil:</h4>
             <div class="form-group">
                 <label for="avatar"></label>
-                <input type="file" name="avatar" accept=".jpg" >
+                <input type="file" name="avatar" accept=".jpg" required>
             </div>
 
             <div class="form-group">
